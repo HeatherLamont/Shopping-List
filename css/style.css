@@ -1,0 +1,98 @@
+body {
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+h1 {
+    margin: 0;
+    padding: 2rem;
+    background-color: antiquewhite;
+    
+}
+
+#form-div{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+}
+
+.new-form{
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    margin: 10px;
+}
+
+#new-item{
+    margin: 0;
+    padding: 5px;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#common-items-div{
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+#which-shop-div{
+    margin: 0;
+    padding: 5px;
+}
+
+#add-button { 
+    padding: 5px;
+    border-style: none;
+    background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#add-button:hover{
+    background-color: aquamarine;
+}
+
+#my-list {
+    padding: 10px; 
+    width: 200px;
+    background-color: antiquewhite;
+    border: 3px;
+    border-top-right-radius: 25%;
+    border-style:dotted;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#my-list h2 {
+    margin: 0;
+    padding: 5px;
+}
+
+
+
+#delete-button {
+    border-style: none;
+    
+    background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#delete-button:hover{
+    background-color: salmon;
+}
